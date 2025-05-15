@@ -1,0 +1,758 @@
+Testing-1 Code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CCTEC Group 1 Prototype Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+      background-color: #000000;
+      color: rgb(211, 211, 211);
+    }
+
+    nav {
+      display:flex;
+      justify-content: space-between;
+      align-items: left;
+      background-color: #000;
+      padding: 1em 2em;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .nav-left,
+    .nav-center,
+    .nav-right {
+      display: flex;
+      align-items: center;
+    }
+.nav-center{margin-right: 400px;}
+    .nav-left img {
+      height: 24px;
+      margin-right: 1em;
+    }
+
+    .nav-center a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1em;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .nav-center a:hover {
+      color: #f15b5b;
+    }
+
+    .nav-right i,
+    .nav-right button {
+      margin-left: 870px;
+      margin-bottom: 15px;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+      background: none;
+      border: none;
+    }
+
+    .nav-right button {
+      background-color: #f15b5b;
+      padding: 0.5em 1em;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+ .about-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 1em;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.about-link:hover {
+  color: #f15b5b;
+}
+
+    .nav-right button:hover {
+      background-color: #e04b4b;
+    }
+    .AboutUs{
+margin-bottom:15px;
+    }
+  </style>
+  <!-- Font Awesome for cart icon -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-left">
+      <a href="testing.html"> <img src="images/494863752_9943674905693002_8129735070110105578_n.png" alt="Electro arcade logo" /></a> 
+    </div>
+
+    <div class="nav-center">
+      <a href="testing2.html">Electro Arcade</a>
+      <a href="testing3.html">Plant Watering System</a>
+      
+    </div>
+
+    <div class="nav-right">
+      <i class="fas fa-shopping-cart"></i>
+    <a href="testing4.html" class="about-link">About Us</a>
+      
+    </div>
+  </nav>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+TESTING CODE-2 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CCTEC Group 1 Prototype Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html{
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+      background-color: #000000;
+      color: rgb(211, 211, 211);
+    }
+
+    nav {
+      display:flex;
+      justify-content: space-between;
+      align-items: left;
+      background-color: #000;
+      padding: 1em 2em;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .nav-left,
+    .nav-center,
+    .nav-right {
+      display: flex;
+      align-items: center;
+    }
+.nav-center{margin-right: 400px;}
+    .nav-left img {
+      height: 24px;
+      margin-right: 1em;
+    }
+
+    .nav-center a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1em;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .nav-center a:hover {
+      color: #f15b5b;
+    }
+
+    .nav-right i,
+    .nav-right button {
+      margin-left: 870px;
+      margin-bottom: 15px;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+      background: none;
+      border: none;
+    }
+
+    .nav-right button {
+      background-color: #f15b5b;
+      padding: 0.5em 1em;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+    .about-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 1em;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.about-link:hover {
+  color: #f15b5b;
+}
+
+    .nav-right button:hover {
+      background-color: #e04b4b;
+    }
+    .AboutUs{
+margin-bottom:15px;
+    }
+
+    h1.title {
+      color:rgb(162, 243, 13) ;
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .gallery {
+  background: #f9f9f9;
+  padding: 3rem 1rem;
+  height: 100vh;
+}
+
+.gallery .heading {
+  text-align: center;
+  font-size: 3rem;
+  color: #222;
+  margin-bottom: 2rem;
+}
+
+.gallery .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.gallery .box-container .box {
+  width: 300px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background: #fff;
+  transition: 0.5s;
+}
+
+.gallery .box-container .box img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.gallery .box-container .box span {
+  display: block;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: #555;
+  transition: 0.5s;
+}
+.gallery .box-container .box:hover{
+  width: 420px;
+  height: 220px;
+  transition: 0.5s;
+}
+.game-section {
+  display: flex;
+  align-items: flex-start; /* aligns image and text at the top */
+  gap: 2rem; /* spacing between image and text */
+  padding: 2em;
+  color: #ddd;
+  background-color: #000;
+  border-radius: 10px;
+  margin: 2em 0;
+}
+
+.game-section img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.game-section .description {
+  max-width: 50%;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.Mazegame{
+  width: 200px;
+  height: 100vh;
+  color: yellow;
+}
+.Colormemorygame{
+  width: 200px;
+  height: 100vh;
+  color: yellow;
+}
+.container{
+  height: 700px;
+  width: 500px;
+}
+.Shootinggame{
+  width: 200px;
+  height: 100vh;
+  color: yellow;
+}
+  
+  </style>
+  <!-- Font Awesome for cart icon -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-left">
+     <a href="testing.html"> <img src="images/494863752_9943674905693002_8129735070110105578_n.png" alt="Electro arcade logo" /></a> 
+    </div>
+
+    <div class="nav-center">
+      <a href="testing2.html">Electro Arcade</a>
+      <a href="testing3.html">Plant Watering System</a>
+      
+    </div>
+
+    <div class="nav-right">
+      <i class="fas fa-shopping-cart"></i>
+    <a href="testing4.html" class="about-link">About Us</a>
+      </div>
+  </nav>
+  <header>
+  <center><h1 class="title">Electro Arcade</h1></center>
+</header>
+
+<br><br>
+
+<div class="description>"><p>
+  Electro Arcade is a dynamic entertainment hub that blends the nostalgia of classic arcade games with the thrill of modern electronic gaming.
+  Designed for gamers of all ages, it offers a vibrant atmosphere filled with flashing lights, upbeat music, and a wide selection of games—from vintage pinball and retro cabinets to cutting-edge virtual reality experiences.
+  Whether you're looking to relive the golden age of arcades or discover the latest in gaming technology, Electro Arcade delivers nonstop fun and friendly competition.
+</p></div>
+
+<br><br>
+
+<section class="gallery" id="gallery">
+  <h1 class="heading">Prototypes</h1>
+  <div class="box-container">
+    <div class="box">
+      <a href="#Mazegame"><img src="images/Screenshot 2025-05-13 174119.png" alt="Maze Game"></a>
+      <span>Maze Game</span>
+    </div>
+    <div class="box">
+      <a href="#Shootinggame"><img src="images/Screenshot 2025-05-13 174119.png" alt="Shooting Game"></a>
+      <span>Shooting Game</span>
+    </div>
+    <div class="box">
+      <a href="#Colormemorygame"><img src="images/Screenshot 2025-05-13 174119.png" alt="Color Memory Game"></a>
+      <span>Color Memory Game</span>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Maze Game Section -->
+<section id="Mazegame" class="game-section">
+  <img src="images/Screenshot 2025-05-13 174119.png" alt="Maze Game">
+  <div class="description">
+    <h1 class="title">Maze Game</h1>
+    <p>
+      In the classic puzzle-based game Maze Game, players must make their way from a starting point to a predetermined end objective through a challenging maze.
+      Finding the right route while avoiding obstacles and dead ends is the goal.
+      Maze games frequently put a player's memory, sense of direction, and problem-solving abilities to the test.
+      They can be straightforward 2D layouts or more complex 3D settings, and they might have enemies, traps, or timers to make things harder.
+      Maze games, which are widely available in digital and physical media, are an entertaining and captivating method to enhance spatial reasoning and brain exercise.
+    </p>
+  </div>
+</section>
+
+<br><br>
+
+<!-- Shooting Game Section -->
+<section id="Shootinggame" class="game-section"><br><br><br><br><br><br><br><br>
+  <img src="images/Screenshot 2025-05-13 174119.png" alt="Shooting Game">
+  <div class="description"> 
+    <h1 class="title">Shooting Game</h1>
+  <p>
+    In the action-packed shooting game arcade genre, players aim and shoot at on-screen targets, adversaries, or objects using light guns, joysticks, or touch screens.
+    In order to replicate actual shooting situations, these games frequently have captivating sound effects, quick-paced action, and striking images.
+    Accuracy and response time are used to determine points as players navigate waves of adversaries, moving targets, or time-based tasks.
+    Shooting arcade games provide players of all ages with thrilling thrills, fast-paced reflex challenges, and competitive fun, whether they are protecting a base, chasing aliens, or surviving a zombie outbreak.
+  </p>
+</div>
+</section>
+
+<br><br>
+
+<!-- Color Memory Game Section -->
+<section id="Colormemorygame" class="game-section"><br><br><br><br><br><br><br><br>
+  <img src="images/Screenshot 2025-05-13 174119.png" alt="Color Memory Game">
+  <div class="description">
+  <h1 class="title"> Memory Game</h1>
+  
+  <p>
+    The entertaining and brain-boosting Color Memory Game tests players' ability to recall and repeat color patterns.
+    A sequence of colored lights or buttons that flash in a particular order is usually displayed by the game.
+    The next step is for the participant to press the colors in the same order to repeat the sequence.
+    As the game goes on, the participant's memory, focus, and ability to recognize patterns are put to the test as the sequences increase longer and more intricate.
+    The Color Memory Game is enjoyed by both children and adults since it enhances cognitive abilities like focus and short-term memory in addition to being entertaining.
+  </p>
+  </div>
+</section>
+<script>
+
+window.addEventListener('scroll', () => {
+  let sections = document.querySelectorAll('section');
+  let navLinks = document.querySelectorAll('header nav a');
+
+  sections.forEach(sec => {
+    let top = window.scrollY;
+    let offset = sec.offsetTop - 150;
+    let height = sec.offsetHeight;
+    let id = sec.getAttribute('id');
+
+    if (top >= offset && top < offset + height) {
+      navLinks.forEach(links => {
+        links.classList.remove('active');
+        document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+      });
+    }
+  });
+});</script>
+ 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+TESTING CODE-3
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CCTEC Group 1 Prototype Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+      background-color: #b33a8e;
+      color: rgb(211, 211, 211);
+    }
+
+    nav {
+      display:flex;
+      justify-content: space-between;
+      align-items: left;
+      background-color: #000;
+      padding: 1em 2em;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .nav-left,
+    .nav-center,
+    .nav-right {
+      display: flex;
+      align-items: center;
+    }
+.nav-center{margin-right: 400px;}
+    .nav-left img {
+      height: 24px;
+      margin-right: 1em;
+    }
+
+    .nav-center a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1em;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .nav-center a:hover {
+      color: #f15b5b;
+    }
+
+    .nav-right i,
+    .nav-right button {
+      margin-left: 870px;
+      margin-bottom: 15px;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+      background: none;
+      border: none;
+    }
+
+    .nav-right button {
+      background-color: #f15b5b;
+      padding: 0.5em 1em;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+    .about-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 1em;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.about-link:hover {
+  color: #f15b5b;
+}
+
+    .nav-right button:hover {
+      background-color: #e04b4b;
+    }
+
+  .PlantWateringSystem{
+    width: 200px;
+    height: 220px;
+  }
+    .AboutUs{
+margin-bottom:15px;
+    }
+  </style>
+  <!-- Font Awesome for cart icon -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-left">
+    <a href="testing.html"> <img src="images/494863752_9943674905693002_8129735070110105578_n.png" alt="Electro arcade logo" /></a> 
+    </div>
+
+    <div class="nav-center">
+      <a href="testing2.html">Electro Arcade</a>
+      <a href="testing3.html">Plant Watering System</a>
+      
+    </div>
+
+    <div class="nav-right">
+      <i class="fas fa-shopping-cart"></i>
+    <a href="testing4.html" class="about-link">About Us</a>
+      
+    </div>
+  </nav>
+
+ <section><header>
+    <center><h1 class="title">Plant Watering System</h1></center>
+  </header></section>
+  <br><br><p>This research focuses on developing and evaluating an automated, website-controlled watering system designed to meet the specific water requirements of basil plants.
+     Aimed at preventing over- and under-watering, the study explores how pot size and soil level influence the hydration needs of basil. 
+     By integrating IoT technology, the system delivers precise, timed watering tailored to different conditions, promoting healthy plant growth while reducing water waste. 
+     This innovative approach offers a reliable and efficient solution for modern plant care, not only for basil but potentially for a wide variety of plants.</p>
+
+ <div class="PlantWateringSystem"></div>
+ <img src="images/494814426_676421628359068_1489518696584060171_n.png">
+ <h1> Plant Watering System</h1>
+ <p>The automated plant watering system is designed with several smart features to enhance plant care.
+   It integrates IoT (Internet of Things) technology, using soil moisture sensors connected to a website interface to monitor plant conditions in real time.
+   This allows users to track the moisture level of the soil and control the watering process remotely.
+    The system optimizes water usage by accurately measuring soil moisture, ensuring that plants receive only the exact amount of water they need—avoiding both overwatering and underwatering.
+Additionally, it features automated scheduling, which eliminates the need for manual watering.
+ This not only reduces human effort but also ensures consistent and timely hydration for the plants.
+  By automating the watering process, the system addresses time constraints often experienced by plant owners, making plant care more convenient and efficient. 
+  Overall, the system provides a reliable, eco-friendly, and time-saving solution for maintaining healthy plant growth.</p>
+  <h2>Results</h2>
+  <img src="images/Screenshot 2025-05-14 230906.png">
+  <h2>here is the week 1 result of the Plant Watering system</h2>
+
+  <img src="images/Screenshot 2025-05-14 230932.png">
+  <h2>Here is the amount of Soil Volume,Water Capacity,and Water requirements</h2>
+
+  <img src="images/Screenshot 2025-05-14 230937.png">
+  <h2>This is the table for the response time  results of week 1 and 2 </h2>
+ 
+  </section>
+</body>
+</html>
+
+
+
+TESTING CODE 4
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CCTEC Group 1 Prototype Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+      background-color: #0f4f5f;
+      color: rgb(211, 211, 211);
+    }
+
+    nav {
+      display:flex;
+      justify-content: space-between;
+      align-items: left;
+      background-color: #000;
+      padding: 1em 2em;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .nav-left,
+    .nav-center,
+    .nav-right {
+      display: flex;
+      align-items: center;
+    }
+.nav-center{margin-right: 400px;}
+    .nav-left img {
+      height: 24px;
+      margin-right: 1em;
+    }
+
+    .nav-center a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1em;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .nav-center a:hover {
+      color: #f15b5b;
+    }
+
+    .nav-right i,
+    .nav-right button {
+      margin-left: 870px;
+      margin-bottom: 15px;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+      background: none;
+      border: none;
+    }
+
+    .nav-right button {
+      background-color: #f15b5b;
+      padding: 0.5em 1em;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+    .about-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 1em;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.about-link:hover {
+  color: #f15b5b;
+}
+.group-photo {
+  max-width: 40%; /* Adjust size here */
+  height: auto;
+  display: block;
+  margin: 2rem auto; /* Center horizontally */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+    .nav-right button:hover {
+      background-color: #e04b4b;
+    }
+    .AboutUs{
+margin-bottom:15px;
+    }
+  </style>
+  <!-- Font Awesome for cart icon -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-left">
+   <a href="testing.html"> <img src="images/494863752_9943674905693002_8129735070110105578_n.png" alt="Electro arcade logo" /></a> 
+    </div>
+
+    <div class="nav-center">
+      <a href="testing2.html">Electro Arcade</a>
+      <a href="testing3.html">Plant Watering System</a>
+      
+    </div>
+
+    <div class="nav-right">
+      <i class="fas fa-shopping-cart"></i>
+    <a href="testing4.html" class="about-link">About Us</a>
+      
+    </div>
+  </nav>
+  <section><header><center><h1 class="title">Cctec Group 1</h1></center>
+  </header></section>
+  <br><br><p>We are Group 1, a group of creative and passionate learners who are committed to using technology and research to investigate real-world issues.
+     Because we all have a love for learning and solving problems, our group works together to create initiatives that tackle real-world issues.
+     Our goal is to produce significant results that demonstrate our commitment to quality and ongoing development by fusing technical know-how, creativity, and teamwork.</p>
+
+     <div class="GroupPhoto"></div>
+     <img src="images/494820759_3019997044968325_2364577053432821603_n.png" alt="Group1Cctec" class="Group-Photo">
+     <h1> Group 1 Cctec</h1>
+     <p>The successful development of our prototypes is the result of the unwavering hard work, dedication, and teamwork of Robert Bucala, Diamond Berce, JB Durian, Justine Alajar, Prince Bravo, Nhicole Catigbe, and Sophia Jacinto. 
+      Each member played a vital role, contributing their unique skills and knowledge to every stage of the project. 
+      From brainstorming ideas to designing, coding, assembling, and testing the prototypes, the group committed countless hours to research, problem-solving, and refinement. 
+      They faced technical challenges head-on, showing persistence and creativity in troubleshooting and improving system performance. 
+      Their collaborative spirit ensured that every detail—from the hardware setup to the website interface—functioned smoothly and efficiently.
+Their dedication extended beyond regular class hours, often requiring late nights and repeated trials to ensure accuracy, reliability, and innovation in the final product.
+ Thanks to their strong sense of responsibility and teamwork, the prototypes not only met their goals but also demonstrated the potential of technology-driven plant care systems.
+  This project stands as a testament to their hard work, resilience, and passion for meaningful, real-world solutions.
+</p>
+     
+
+</body>
+</html>
